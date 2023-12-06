@@ -1,4 +1,5 @@
 import { products } from "@/data";
+import Link from "next/link";
 
 export default function Products() {
   return (
@@ -61,7 +62,9 @@ export default function Products() {
                       <span className=" mini-text">(1,275)</span>
                     </div>
                     <h3 className="main-links">
-                      <a href="#">Happy Sailed Women Summer Boho Fashion</a>
+                      <Link href="/1">
+                        Happy Sailed Women Summer Boho Fashion
+                      </Link>
                     </h3>
                     <div className="price">
                       <span className="current">$128.99</span>
@@ -117,7 +120,9 @@ export default function Products() {
                     </div>
                     <div className="content">
                       <h3 className="main-links">
-                        <a href="#">Man Sailed Women Summer Boho Fashion</a>
+                        <Link href="/1">
+                          Man Sailed Women Summer Boho Fashion
+                        </Link>
                       </h3>
                       <div className="rating">
                         <div className="stars"></div>
